@@ -1,34 +1,38 @@
+
 <%= form_tag(posts_path, method: :get) do %>
-    <h3>Q.1 新規加入をご希望ですか？</h3>
-        <label>
-            <%= radio_button_tag :age, "1" %> 10代
-        </label>
-        <label>
-            <%= radio_button_tag :age, "2" %> 20代
-        </label>
-        <label>
-            <%= radio_button_tag :age, "3" %> 30代
-        </label>
-        <label>
-            <%= radio_button_tag :age, "4" %> 40代
-        </label>
+  <h3>Q.1 ？</h3>
+    <label>
+        <%= radio_button_tag :age, "1" %> 10代
+    </label>
+    <label>
+        <%= radio_button_tag :age, "2" %> 20代
+    </label>
+    <label>
+    <%= radio_button_tag :age, "3" %> 30代
+    </label>
+    <label>
+    <%= radio_button_tag :age, "4" %> 40代
+    </label>
+    
+    <h3>Q.2 新規加入（追加で加入）をご希望ですか？</h3>
+      <label>
+          <%= radio_button_tag :glasses, "1" %> いいえ
+      </label>
+      <label>
+          <%= radio_button_tag :glasses, "2" %> はい
+      </label>
+    <h3>Q.3 希望される項目をお選びください</h3>
+    <label>
+      <%= radio_button_tag :sex, "1" %> テレビ
+    </label>
+    <label>
+      <%= radio_button_tag :sex, "2" %> 電話
+    </label>
+    <label>
+      <%= radio_button_tag :sex, "3" %> インターネット
+    </label>
 
-    <h3>Q.2 ？</h3>
-        <label>
-          <%= radio_button_tag :sex, "1" %> 男
-        </label>
-        <label>
-          <%= radio_button_tag :sex, "2" %> 女
-        </label>
 
-    <h3>Q.3 新規加入をご希望ですか？</h3>
-        <label>
-            <%= radio_button_tag :glasses, "1" %> いいえ
-        </label>
-        <label>
-            <%= radio_button_tag :glasses, "2" %> はい
-        </label>
-
-    <br>
-    <%= submit_tag '診断する'  %>
+  <br>
+  <%= submit_tag '診断する'  %>
  <% end %>
