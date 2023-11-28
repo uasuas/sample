@@ -9,25 +9,45 @@
 #   end
 Post.create!(
    number: '111',
-   content: '111',
+   content: 'アホ',
 )
 Post.create!(
    number: '211',
-   content: '211',
+   content: 'アホ',
 )
 Post.create!(
    number: '311',
-   content: '311',
+   content: 'アホ',
 )
 Post.create!(
    number: '411',
-   content: '411',
+   content: 'アホ',
 )
 Post.create!(
    number: '121',
-   content: '121',
+   content: 'アホ',
 )
 Post.create!(
    number: '221',
-   content: '221',
+   content: 'アホ',
+)
+Post.create!(
+   number: '222',
+   content: 'アホ',
+)
+Post.create!(
+   number: '321',
+   content: 'アホ',
+)
+Post.create!(
+   number: '322',
+   content: 'アホ',
+)
+Post.create!(
+   number: '421',
+   content: 'アホ',
+)
+Post.create!(
+   number: '422',
+   content: 'アホ',
 )

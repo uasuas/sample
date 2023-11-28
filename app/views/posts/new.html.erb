@@ -1,5 +1,5 @@
 <%= form_tag(posts_path, method: :get) do %>
-    <h3>Q.1 あなたは何歳ですか？</h3>
+    <h3>Q.1 新規加入をご希望ですか？</h3>
         <label>
             <%= radio_button_tag :age, "1" %> 10代
         </label>
@@ -13,15 +13,15 @@
             <%= radio_button_tag :age, "4" %> 40代
         </label>
 
-    <h3>Q.2 あなたの性別は何ですか？</h3>
+    <h3>Q.2 ？</h3>
         <label>
-            <%= radio_button_tag :sex, "1" %> 男
+          <%= radio_button_tag :sex, "1" %> 男
         </label>
         <label>
-            <%= radio_button_tag :sex, "2" %> 女
+          <%= radio_button_tag :sex, "2" %> 女
         </label>
 
-    <h3>Q.3 あなたはメガネをかけていますか？</h3>
+    <h3>Q.3 新規加入をご希望ですか？</h3>
         <label>
             <%= radio_button_tag :glasses, "1" %> いいえ
         </label>
